@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<data>
+  <row>
+    <id>661</id>
+    <name>Room #661</name>
+    <avg_age>12.6666666666666667</avg_age>
+  </row>
+  <row>
+    <id>913</id>
+    <name>Room #913</name>
+    <avg_age>20.3333333333333333</avg_age>
+  </row>
+  <row>
+    <id>111</id>
+    <name>Room #111</name>
+    <avg_age>32.1000000000000000</avg_age>
+  </row>
+  <row>
+    <id>957</id>
+    <name>Room #957</name>
+    <avg_age>33.7777777777777778</avg_age>
+  </row>
+  <row>
+    <id>773</id>
+    <name>Room #773</name>
+    <avg_age>35.6363636363636364</avg_age>
+  </row>
+</data>
