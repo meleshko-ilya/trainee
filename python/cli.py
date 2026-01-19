@@ -1,6 +1,15 @@
 import argparse
 
 def parse_args() -> argparse.Namespace:
+    """
+    Parse command-line arguments for the application.
+
+    Supported commands:
+    - load   : Load students and rooms data into the database
+    - export : Export query results from the database
+
+    :return: Parsed command-line arguments
+    """
     parser = argparse.ArgumentParser(description="Students/Rooms DB tool")
     subparsers = parser.add_subparsers(dest="command", required=True)
 

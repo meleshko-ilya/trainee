@@ -7,6 +7,15 @@ import os
 
 
 def run_query(db, sql) -> (list, list):
+    """
+    Execute an SQL query on the database.
+
+    :param db: Database instance
+    :param sql: SQL query string
+    :return: Tuple (rows, cols) where:
+             - rows is a list of result rows
+             - cols is a list of column names
+    """
     with db.cursor() as cursor:
         cursor.execute(sql)
         rows = cursor.fetchall()
@@ -14,6 +23,14 @@ def run_query(db, sql) -> (list, list):
     return rows, cols
 
 def main() -> None:
+    """
+    Application entry point.
+
+    Depending on the CLI command:
+    - load   : loads data from JSON files into the database
+    - export : executes SQL queries and saves results
+               in JSON or XML format into the output/ directory
+   """
     args = parse_args()
     db = Database()
 
