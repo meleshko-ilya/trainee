@@ -1,0 +1,11 @@
+{"timestamp":"2026-02-16T21:30:32.907100Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-16T21:30:32.909802Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/load_data_to_mongo.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-16T21:30:33.080024Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:30:33.080582Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:30:33.081461Z","level":"info","event":"Current task name:load_data_to_mongo","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:30:33.081998Z","level":"info","event":"Dag name:load_data_to_mongo","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:30:51.453784Z","level":"info","event":"Inserted 307057 records into MongoDB.","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:30:51.725630Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-16T21:30:51.754684Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:30:51.755457Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:30:51.756422Z","level":"info","event":"Task operator:<Task(PythonOperator): load_data_to_mongo>","logger":"task.stdout"}

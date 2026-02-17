@@ -1,0 +1,14 @@
+{"timestamp":"2026-02-16T21:29:47.821693Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-16T21:29:47.824103Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/process_data.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-16T21:29:47.871947Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:29:47.872630Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:29:47.873840Z","level":"info","event":"Current task name:check_empty","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:29:47.874453Z","level":"info","event":"Dag name:process_data","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:29:50.631205Z","level":"info","event":"Done. Returned value was: process_data.replace_nulls","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-16T21:29:50.631443Z","level":"info","event":"Branch into process_data.replace_nulls","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator","filename":"branch.py","lineno":44}
+{"timestamp":"2026-02-16T21:29:50.632297Z","level":"info","event":"Following branch {'process_data.replace_nulls'}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator","filename":"skipmixin.py","lineno":146}
+{"timestamp":"2026-02-16T21:29:50.632462Z","level":"info","event":"Skipping tasks [('file_empty', -1)]","logger":"airflow.task.operators.airflow.providers.standard.operators.python.BranchPythonOperator","filename":"skipmixin.py","lineno":185}
+{"timestamp":"2026-02-16T21:29:50.655330Z","level":"info","event":"Skipping downstream tasks.","logger":"task","filename":"task_runner.py","lineno":1083}
+{"timestamp":"2026-02-16T21:29:50.692713Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:29:50.693237Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-16T21:29:50.693904Z","level":"info","event":"Task operator:<Task(BranchPythonOperator): check_empty>","logger":"task.stdout"}
